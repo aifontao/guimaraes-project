@@ -4,6 +4,75 @@
   --main-font-family: "Exo 2", sans-serif;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
 h1 {
   font-family: var(--title-font-family);
+}
+h2 {
+  font-family: var(--subtitle-font-family);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../images/oliveira.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+header h1 {
+  font-size: 65px;
+  line-height: 1.2;
+  margin: 20px 0 25px;
+}
+header h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 55px;
+}
+header h3 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a {
+  background-color: white;
+  color: #053d68;
+  font-weight: bold;
+  opacity: 75%;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  opacity: 100%;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 50px;
+  }
+  header h1 {
+    font-size: 33px;
+  }
+  header h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  header a {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
 }
