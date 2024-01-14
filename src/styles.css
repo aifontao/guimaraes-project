@@ -36,6 +36,7 @@
   background-color: var(--background-color);
   color: white;
   display: block;
+  font-weight: bold;
   margin-top: 20px;
   padding: 16px;
   text-align: center;
