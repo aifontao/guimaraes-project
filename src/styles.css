@@ -16,6 +16,7 @@ section {
 
 body {
   font-family: var(--main-font-family);
+  background-color: #002645;
 }
 h1 {
   font-family: var(--title-font-family);
@@ -60,7 +61,7 @@ header a {
 
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 38, 69, 0.9), rgba(0, 38, 69, 0.8)),
     url(../images/penha.jpg);
   background-repeat: no-repeat;
   background-size: cover;
