@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   font-family: var(--main-font-family);
 }
@@ -53,11 +58,45 @@ header a {
   text-transform: uppercase;
 }
 
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
+    url(../images/penha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 2fr);
+  grid-gap: 60px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  opacity: 0.6;
+}
+
+footer p {
+  opacity: 0.6;
+}
+
 header a:hover {
   opacity: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 50px;
   }
